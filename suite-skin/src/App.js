@@ -25,8 +25,8 @@ export default class App extends Component {
       <Router>
         <TransitionGroup exact component="div" className="App">
           <CSSTransition 
-            timeout={timeout} 
-            className="pageSlider" 
+            timeout={timeout}
+            className="pageSlider"
             mountOnEnter={false} 
             unmountOnExit={true}
             >
