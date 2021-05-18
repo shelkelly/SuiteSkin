@@ -151,3 +151,8 @@ animation: expand ease-in-out forwards 3s;
     margin-right: auto;
     width: 50%;
   }
+
+  /* BEFORE AND AFTER PAGE */
+  .carouselPhoto {
+    max-width: 450px;;
+  }
