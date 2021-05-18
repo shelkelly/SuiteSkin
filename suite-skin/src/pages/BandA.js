@@ -28,6 +28,13 @@ const BandA = () => {
 
                 </Col>
             </Row>
+            <Row>
+                <Col size="md-12">
+                    <div class="footer">
+                        C Suite Skin by Lindsey
+                    </div>
+                </Col>
+            </Row>
         </Container >
     );
 };
