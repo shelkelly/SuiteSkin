@@ -9,7 +9,7 @@ const Products = () => {
         <Container fluid>
             <NavigationBar />
             <Row>
-            <Col size="md-4"/>
+                <Col size="md-4" />
                 <Col size="md-8">
                     <CustomDiv id="banner">
                         <h1>Suite Skin by Lindsey</h1>
@@ -21,22 +21,32 @@ const Products = () => {
                 <Col size="md-4" />
                 <Col size="md-8">
                     <h2>Products</h2>
-                    <p></p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare nibh dui, eget iaculis tortor viverra eget. Maecenas vel augue risus. Etiam porttitor magna risus, a consectetur turpis lacinia quis. Phasellus bibendum, mauris quis faucibus ornare, nulla turpis vulputate elit, lacinia tristique nibh neque a turpis. Sed semper elit ipsum, malesuada ultrices elit pharetra at. Nulla interdum dolor in placerat ornare. Duis quis sem sagittis, tempor turpis vel, hendrerit elit. Donec pulvinar molestie ligula, quis dictum ex mattis ut. Mauris mollis sit amet elit at laoreet. Vestibulum consectetur justo vitae ante gravida congue. Quisque porttitor mauris vel augue varius vestibulum. Duis sollicitudin, odio nec commodo fermentum, eros metus mollis quam, mattis pellentesque arcu lorem quis lacus.
+                    <p><img src="" alt="Eminence" id="product1"></img></p>
+                    <p>Eminence Organics is passionate about using the best natural, organic and Biodynamic® ingredients to bring our Customers the healthiest and most effective skin care products.</p>
+                    <p></p>
 
 
-                    <p></p>Sed magna lacus, aliquet non augue id, sagittis ultrices nulla. Mauris non rutrum dolor, ut aliquam quam. Integer a scelerisque sem, vitae aliquam massa. Sed pretium suscipit augue, eu commodo enim congue non. Pellentesque justo nulla, hendrerit a porta id, rhoncus ac mi. Cras fringilla dui venenatis nulla consectetur porta. Nulla eros nisi, rutrum non pulvinar faucibus, posuere vitae leo. Sed risus lorem, accumsan id augue eu, blandit dignissim nisl. Proin quis est congue, dapibus arcu ut, maximus nisi. Aliquam posuere porta tincidunt.
+                    <p><img src="" alt="Circadia" id="product2"></img></p>
+                    <p>At Circadia, our philosophy of skincare is centered on the body’s circadian rhythms, defending from environmental insult during the day, and stimulating repair mechanisms during sleep. Circadia’s products utilize paraben-free preservative systems, a multitude of cutting-edge ingredient technologies and specialty items for comprehensive treatment of aging skin, pigmentation disorders, acne and rosacea. The company also boasts a clinically evaluated moisturizing pillow case which is an exclusive all-night skin care treatment accessory.</p>
 
-                    <p></p>Nulla ac porttitor neque. Proin id dolor dolor. Praesent ac sapien feugiat, commodo sem ac, posuere urna. Etiam in tellus ultricies, dignissim libero vitae, bibendum diam. Quisque accumsan, neque eu lobortis eleifend, libero justo dictum leo, non elementum dolor sapien sed erat. Sed ac tincidunt diam, a aliquet odio. Morbi quis dapibus justo. Donec rhoncus arcu magna, et tempor nisi dapibus nec. Quisque a lacinia neque, et interdum arcu.
+                    <p>Circadia by Dr. Pugliese has a rich history and bright future. Dr. Pugliese, Circadia’s founder, remains a strong, influential voice in the science of aging skin. Michael Pugliese, Circadia’s CEO, has earned a distinguished reputation as a lecturer in skin science and as an innovator in product formulation.</p>
+
+
+                    <p><img src="" alt="Face Reality" id="product3"></img></p>
+                    <p>Acne is a mysterious skin disorder, but one thing is for sure – it can be controlled with the right combination of products, used in the correct way. Just as in a clogged drain, the pore must be treated with products that unclog it and kill the acne bacteria.</p>
+
+
+                    <p>Face Reality Skincare has a clear-skin system that will have your acne under control in about three to four months, depending on your type of acne. We combine the power of clinical-grade products that are customized for your type of acne, with a series of bi-monthly treatments. We also teach you about other aggravating factors that make you break out – foods, medications, cosmetics, stress, and common ingredients in skin care formulations that might be clogging your pores (even professional and prescription products)</p>
 
                 </Col>
             </Row>
-            <Row>
-                <Col size="md-12">
-                    <div class="footer">
-                        C Suite Skin by Lindsey
+                <Row>
+                    <Col size="md-12">
+                        <div class="footer">
+                            C Suite Skin by Lindsey
                     </div>
-                </Col>
-            </Row>
+                    </Col>
+                </Row>
         </Container >
     );
 };

@@ -3,7 +3,6 @@ import CustomDiv from "../components/CustomDiv";
 import { Col, Row, Container } from "../components/Grid";
 import "./css/stylesheets.css"
 import NavigationBar from "../components/NavigationBar";
-import Home from "./Home";
 
 const Enter = () => {
     return (
@@ -39,7 +38,7 @@ const Enter = () => {
                 <Col size="md-12">
                     <div class="footer">
                         C Suite Skin by Lindsey
-            </div>
+                    </div>
                 </Col>
             </Row>
 
