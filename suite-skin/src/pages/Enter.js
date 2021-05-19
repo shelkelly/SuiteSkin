@@ -17,7 +17,7 @@ const Enter = () => {
                 </Col>
 
             </Row>
-            <p></p><img src="https://image.freepik.com/free-vector/watercolor-jojoba-plant-illustration_23-2148850683.jpg" id="plantpic" class="center"></img>
+            <p></p><img src="" id="plantpic" class="center"></img>
             <Row>
                 <Col size="md-4" />
                 <Col size="md-8">

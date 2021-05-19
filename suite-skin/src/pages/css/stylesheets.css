@@ -15,10 +15,6 @@ body {
 
 /* FOOTER */
 .footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   padding: 1rem;
   background-color: rgb(131, 141, 118);
   color: white;
@@ -168,4 +164,10 @@ animation: expand ease-in-out forwards 3s;
   /* BEFORE AND AFTER PAGE */
   .carouselPhoto {
     max-width: 450px;;
+  }
+
+  /* PRODUCTS PAGE */
+
+  #prodmaindiv {
+    
   }
