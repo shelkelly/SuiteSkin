@@ -1,7 +1,7 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 /* BACKGROUND */
-#background {
+#bggggg2 {
     background-image: url("../../images/botanical4.jpg");
     background-color: rgb(255, 255, 255);
     background-position: bottom left;
@@ -9,7 +9,7 @@
     background-attachment: fixed;
     background-size:contain;
     height: 100vh;
-    overflow: auto;
+    overflow: visible;
     animation: fadein 1.3s ease-in forwards;
 }
 
@@ -48,6 +48,15 @@
   }
   100% {
     transform: translateX(0px);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
   }
 }
 
@@ -136,7 +145,7 @@ padding: 2%;
 padding-bottom: 50px;;
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 transform: translateY(100px);
-animation: expand ease-in-out forwards 3s;
+animation: expand ease-in-out forwards 2.5s;
 }
 
 /* HOME STYLING */
@@ -151,7 +160,7 @@ animation: expand ease-in-out forwards 3s;
     padding: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: translateY(100px);
-    animation: expand ease-in forwards 2.5s;
+    animation: expand ease-in-out forwards 3s;
 }
 
 #plantpic {
@@ -171,6 +180,20 @@ animation: expand ease-in-out forwards 3s;
   }
 
   /* SERVICES PAGE */
+
+  #bggggg4 {
+      background-image: url("https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/botanical1.png?raw=true");
+      background-color: rgb(255, 255, 255);
+      background-position: bottom left;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size:contain;
+      height: 100vh;
+      overflow: visible;
+      animation: fadein 3.1s;
+      -webkit-animation-iteration-count: 1;
+  }
+
   #servicesmaindiv {
     text-align: center;
     margin-top: 3%;
@@ -181,10 +204,24 @@ animation: expand ease-in-out forwards 3s;
     padding: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: translateY(100px);
-    animation: expand ease-in forwards 2.5s;
+    animation: expand ease-in-out forwards 3s;
 }
 
   /* BEFORE AND AFTER PAGE */
+
+  #bggggg3 {
+    background-image: url("https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/botanical2.png?raw=true");
+    background-color: rgb(255, 255, 255);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    height: 100vh;
+    overflow: visible;
+    animation: fadein 1.3s;
+    -webkit-animation-iteration-count: 1;
+}
+
   .carouselPhoto {
     max-width: 450px;;
   }
@@ -199,10 +236,23 @@ animation: expand ease-in-out forwards 3s;
       padding: 2%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       transform: translateY(100px);
-      animation: expand ease-in forwards 2.5s;
+      animation: expand ease-in-out forwards 3s;
   }
 
   /* PRODUCTS PAGE */
+
+  #bggggg5 {
+    background-image: url("https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/botanical3.jpg?raw=true");
+    background-color: rgb(255, 255, 255);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    height: 100vh;
+    overflow: visible;
+    animation: fadein 3.1s;
+    -webkit-animation-iteration-count: 1;
+}
 
   #prodmaindiv {
       text-align: center;
@@ -214,10 +264,24 @@ animation: expand ease-in-out forwards 3s;
       padding: 2%;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       transform: translateY(100px);
-      animation: expand ease-in forwards 2.5s;
+      animation: expand ease-in-out forwards 3s;
   }
 
   /* CONTACT PAGE */
+
+  #bggggg6 {
+    background-image: url("../../images/6729crop1.jpg");
+    background-color: rgb(255, 255, 255);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    height: 100vh;
+    overflow:visible;
+    animation: fadein 3.1s;
+    -webkit-animation-iteration-count: 1;
+}
+
   #contactmaindiv {
     text-align: center;
     margin-top: 3%;
@@ -228,5 +292,5 @@ animation: expand ease-in-out forwards 3s;
     padding: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: translateY(100px);
-    animation: expand ease-in forwards 2.5s;
+    animation: expand ease-in-out forwards 3s;
 }

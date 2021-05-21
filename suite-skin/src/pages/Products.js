@@ -8,6 +8,7 @@ const Products = () => {
     return (
         <Container fluid>
             <NavigationBar />
+            <div id="bggggg5">
             <Row>
                 <Col size="md-4" />
                 <Col size="md-8">
@@ -39,6 +40,7 @@ const Products = () => {
                         <p>Face Reality Skincare has a clear-skin system that will have your acne under control in about three to four months, depending on your type of acne. We combine the power of clinical-grade products that are customized for your type of acne, with a series of bi-monthly treatments. We also teach you about other aggravating factors that make you break out – foods, medications, cosmetics, stress, and common ingredients in skin care formulations that might be clogging your pores (even professional and prescription products)</p>
 
                         <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/products/GrandeLogo.png?raw=true" alt="GrandeLash" id="product4"></img></p>
+                        <p><b>Serum and Mascara Only</b></p>
                         <p>An award-winning lash enhancing serum infused with a blend of vitamins, peptides, and amino acids to promote the appearance of naturally longer, thicker looking lashes in 4-6 weeks, with full improvement in 3 months. It’s a favorite for helping to enhance short, thinning, brittle lashes. Ophthalmologist tested. Suitable for contacts and lash extensions.</p>
                         
                     </CustomDiv>
@@ -52,6 +54,7 @@ const Products = () => {
                     </div>
                 </Col>
             </Row>
+            </div>
         </Container >
     );
 };

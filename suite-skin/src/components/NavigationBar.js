@@ -3,10 +3,10 @@ import React from "react";
 function Nav() {
   return (
     <nav className="navbar navbar-dark bg-dark">
-      <a className="navbar-brand" href="/Enter" id="bg01">
+      <a className="navbar-brand" href="/Enter">
         Home
       </a>
-      <a className="navbar-brand" href="/Services" id="bg02">
+      <a className="navbar-brand" href="/Services" className="services">
         Services
       </a>
       <a className="navbar-brand" href="/BeforeAndAfter" id="bg03">
@@ -18,7 +18,7 @@ function Nav() {
       <a className="navbar-brand" href="/Contact" id="bg05">
         Contact
       </a>
-      <a className="navbar-brand" href="">
+      <a className="navbar-brand" href="https://suiteskinbylindsey.glossgenius.com/">
         Online Booking
       </a>
     </nav>

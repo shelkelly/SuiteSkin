@@ -7,8 +7,9 @@ import Home from "./Home";
 
 const Services = () => {
     return (
-        <Container fluid id="backgroundChange">
+        <Container fluid>
             <NavigationBar />
+            <div id="bggggg4">
             <Row>
                 <Col size="md-4" />
                 <Col size="md-8">
@@ -39,6 +40,7 @@ const Services = () => {
                     </div>
                 </Col>
             </Row>
+            </div>
         </Container >
     );
 };

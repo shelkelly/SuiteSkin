@@ -9,6 +9,7 @@ const Contact = () => {
     return (
         <Container fluid>
             <NavigationBar />
+            <div id="bggggg6">
             <Row>
                 <Col size="md-4" />
                 <Col size="md-8">
@@ -39,6 +40,7 @@ const Contact = () => {
                     </div>
                 </Col>
             </Row>
+            </div>
         </Container >
     );
 };

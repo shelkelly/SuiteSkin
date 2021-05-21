@@ -15,3 +15,6 @@ leaf assortment set
 
 icon leaf botanical set
 <a href='https://www.freepik.com/vectors/background'>Background vector created by rawpixel.com - www.freepik.com</a>
+
+second leaf assortment
+<a href='https://www.freepik.com/vectors/background'>Background vector created by rawpixel.com - www.freepik.com</a>
