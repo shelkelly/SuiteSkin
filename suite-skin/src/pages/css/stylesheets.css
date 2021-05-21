@@ -1,7 +1,7 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 /* BACKGROUND */
-body {
+#background {
     background-image: url("../../images/botanical4.jpg");
     background-color: rgb(255, 255, 255);
     background-position: bottom left;
@@ -55,6 +55,7 @@ body {
 .navbar {
     overflow: hidden;
     background-color: rgb(131, 141, 118);
+    border-radius: 10px;
   }
   
   .navbar a {
@@ -118,11 +119,18 @@ h1 {
     font-size:86px;
 }
 
+h2 {
+  font-family: 'Poiret One', cursive;
+  font-size:62px;
+}
+
 /* BANNER */
 #banner {
 text-align:center;
 height: 100%;
-background-color: rgb(140, 158, 132);
+background-color: rgb(90, 128, 122);
+color: white;
+border-radius: 10px;
 margin-bottom: 3%;
 padding: 2%;
 padding-bottom: 50px;;
@@ -137,6 +145,7 @@ animation: expand ease-in-out forwards 3s;
     text-align: center;
     margin-top: 3%;
     margin-bottom: 10%;
+    border-radius: 10px;
     max-height: 50%;
     background-color: rgba(232, 252, 249, 0.397);
     padding: 2%;
@@ -146,10 +155,10 @@ animation: expand ease-in-out forwards 3s;
 }
 
 #plantpic {
-    border-radius: 3px;
-    width: 100px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
     padding:1px;
-    border:1px solid #520101;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -161,13 +170,63 @@ animation: expand ease-in-out forwards 3s;
     width: 50%;
   }
 
+  /* SERVICES PAGE */
+  #servicesmaindiv {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    max-height: 50%;
+    background-color: rgba(232, 252, 249, 0.397);
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(100px);
+    animation: expand ease-in forwards 2.5s;
+}
+
   /* BEFORE AND AFTER PAGE */
   .carouselPhoto {
     max-width: 450px;;
   }
 
+  #baamaindiv {
+      text-align: center;
+      margin-top: 3%;
+      margin-bottom: 10%;
+      border-radius: 10px;
+      max-height: 50%;
+      background-color: rgba(232, 252, 249, 0.397);
+      padding: 2%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transform: translateY(100px);
+      animation: expand ease-in forwards 2.5s;
+  }
+
   /* PRODUCTS PAGE */
 
   #prodmaindiv {
-    
+      text-align: center;
+      margin-top: 3%;
+      margin-bottom: 10%;
+      border-radius: 10px;
+      max-height: 50%;
+      background-color: rgba(232, 252, 249, 0.397);
+      padding: 2%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      transform: translateY(100px);
+      animation: expand ease-in forwards 2.5s;
   }
+
+  /* CONTACT PAGE */
+  #contactmaindiv {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 10%;
+    border-radius: 10px;
+    max-height: 50%;
+    background-color: rgba(232, 252, 249, 0.397);
+    padding: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(100px);
+    animation: expand ease-in forwards 2.5s;
+}

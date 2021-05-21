@@ -23,9 +23,10 @@ const BandA = () => {
             <Row>
                 <Col size="md-4" />
                 <Col size="md-8">
-                    <h2>Before and After</h2>
-                    <p><Carousel/></p>
-
+                    <CustomDiv id="baamaindiv">
+                        <h2>Before and After Photos</h2>
+                        <p><Carousel /></p>
+                    </CustomDiv>
                 </Col>
             </Row>
             <Row>
