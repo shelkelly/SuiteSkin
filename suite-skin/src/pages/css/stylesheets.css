@@ -9,7 +9,7 @@
     background-attachment: fixed;
     background-size:contain;
     height: 100vh;
-    overflow: visible;
+    overflow: auto;
     animation: fadein 1.3s ease-in forwards;
 }
 
@@ -189,7 +189,7 @@ animation: expand ease-in-out forwards 2.5s;
       background-attachment: fixed;
       background-size:contain;
       height: 100vh;
-      overflow: visible;
+      overflow: auto;
       animation: fadein 3.1s;
       -webkit-animation-iteration-count: 1;
   }
@@ -217,7 +217,7 @@ animation: expand ease-in-out forwards 2.5s;
     background-attachment: fixed;
     background-size:contain;
     height: 100vh;
-    overflow: visible;
+    overflow: auto;
     animation: fadein 1.3s;
     -webkit-animation-iteration-count: 1;
 }
@@ -249,7 +249,7 @@ animation: expand ease-in-out forwards 2.5s;
     background-attachment: fixed;
     background-size:contain;
     height: 100vh;
-    overflow: visible;
+    overflow: auto;
     animation: fadein 3.1s;
     -webkit-animation-iteration-count: 1;
 }
@@ -277,7 +277,7 @@ animation: expand ease-in-out forwards 2.5s;
     background-attachment: fixed;
     background-size:contain;
     height: 100vh;
-    overflow:visible;
+    overflow:auto;
     animation: fadein 3.1s;
     -webkit-animation-iteration-count: 1;
 }
