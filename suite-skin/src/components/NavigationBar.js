@@ -3,8 +3,8 @@ import React from "react";
 function Nav() {
   return (
     <nav className="navbar navbar-dark bg-dark">
-      <a className="navbar-brand" href="/Enter">
-        Home
+      <a className="navbar-brand" href="/Enter" id="brand">
+        Suite Skin
       </a>
       <a className="navbar-brand" href="/Services" className="services">
         Services
@@ -13,7 +13,7 @@ function Nav() {
         Before and After
       </a>
       <a className="navbar-brand" href="/Products" id="bg04">
-        Products
+        Product Lines
       </a>
       <a className="navbar-brand" href="/Contact" id="bg05">
         Contact

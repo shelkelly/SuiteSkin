@@ -22,7 +22,7 @@ const Products = () => {
                 <Col size="md-4" />
                 <Col size="md-8">
                     <CustomDiv id="prodmaindiv">
-                        <h2>Products</h2>
+                        <h2>Product Lines</h2>
                         <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/products/eminence.png?raw=true" alt="Eminence" id="product1"></img></p>
                         <p>Eminence Organics is passionate about using the best natural, organic and Biodynamic® ingredients to bring our Customers the healthiest and most effective skin care products.</p>
                         <p></p>

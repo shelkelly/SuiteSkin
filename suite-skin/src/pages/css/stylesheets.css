@@ -20,6 +20,12 @@
   color: white;
   text-align: center;
 }
+/* RESPONSIVE IMAGE */
+.responsive {
+  width: 100%;
+  height: auto;
+  max-width: 600px;
+}
 
 /* TRANSITIONS */
 
@@ -61,6 +67,11 @@
 }
 
 /* NAVBAR STYLING */
+
+nav {
+  display: block;
+}
+
 .navbar {
     overflow: hidden;
     background-color: rgb(131, 141, 118);
@@ -71,9 +82,9 @@
     float: left;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 10px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Poiret One', cursive;
     font-weight:bold;
   }
@@ -86,6 +97,18 @@
   .navbar a.active {
     background-color: #2b5d4c;
     color: white;
+  }
+
+  .hidelinks {
+    display: none;
+  }
+
+  .dropdown:hover + .hidelinks {
+    display: initial;
+  }
+
+  #brand {
+    font-size: 24px;
   }
 
 /* LANDING STYLING */
@@ -179,6 +202,11 @@ animation: expand ease-in-out forwards 2.5s;
     width: 50%;
   }
 
+  #socmed:hover {
+    transform: scale(1.5);
+    transition-duration: .5s;
+  }
+
   /* SERVICES PAGE */
 
   #bggggg4 {
@@ -237,6 +265,13 @@ animation: expand ease-in-out forwards 2.5s;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       transform: translateY(100px);
       animation: expand ease-in-out forwards 3s;
+  }
+
+  span {
+    background-color:rgb(90, 128, 122);
+    padding: 10px 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   /* PRODUCTS PAGE */
