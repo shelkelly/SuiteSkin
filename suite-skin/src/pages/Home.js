@@ -1,5 +1,4 @@
 import React from "react";
-import Enter from "./Enter";
 import CustomDiv from "../components/CustomDiv";
 import { Col, Row, Container } from "../components/Grid";
 import "./css/stylesheets.css";

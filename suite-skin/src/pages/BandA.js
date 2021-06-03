@@ -6,7 +6,6 @@ import NavigationBar from "../components/NavigationBar";
 import Carousel from "../components/Carousel";
 
 
-
 const BandA = () => {
     return (
         <Container fluid>
@@ -34,7 +33,7 @@ const BandA = () => {
                     <Col size="md-12">
                         <div class="footer">
                             C Suite Skin by Lindsey
-                    </div>
+                        </div>
                     </Col>
                 </Row>
             </div>

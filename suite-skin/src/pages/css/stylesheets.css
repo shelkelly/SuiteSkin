@@ -1,5 +1,7 @@
 /* FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 /* BACKGROUND */
 #bggggg2 {
     background-image: url("../../images/botanical4.jpg");
@@ -11,6 +13,12 @@
     height: 100vh;
     overflow: auto;
     animation: fadein 1.3s ease-in forwards;
+}
+
+/*PARAGRAPHH FONT */
+p {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
 }
 
 /* FOOTER */
@@ -80,9 +88,10 @@ nav {
   
   .navbar a {
     float: left;
+    border-radius: 5px;
     color: #000000;
     text-align: center;
-    padding: 10px 10px;
+    padding: 10px 15px;
     text-decoration: none;
     font-size: 16px;
     font-family: 'Poiret One', cursive;
@@ -156,6 +165,13 @@ h2 {
   font-size:62px;
 }
 
+h3 {
+  font-family: 'Poiret One', cursive;
+  font-size:40px;
+  background-color:rgb(145, 175, 170);
+  border-radius: 5px;
+}
+
 /* BANNER */
 #banner {
 text-align:center;
@@ -223,16 +239,26 @@ animation: expand ease-in-out forwards 2.5s;
   }
 
   #servicesmaindiv {
+    overflow: auto;
     text-align: center;
     margin-top: 3%;
     margin-bottom: 10%;
     border-radius: 10px;
-    max-height: 50%;
     background-color: rgba(232, 252, 249, 0.397);
     padding: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: translateY(100px);
     animation: expand ease-in-out forwards 3s;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
+}
+
+li {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
 }
 
   /* BEFORE AND AFTER PAGE */
@@ -250,8 +276,9 @@ animation: expand ease-in-out forwards 2.5s;
     -webkit-animation-iteration-count: 1;
 }
 
-  .carouselPhoto {
-    max-width: 450px;;
+  .carousel {
+    border-radius: 13px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
   #baamaindiv {
@@ -294,12 +321,31 @@ animation: expand ease-in-out forwards 2.5s;
       margin-top: 3%;
       margin-bottom: 10%;
       border-radius: 10px;
-      max-height: 50%;
       background-color: rgba(232, 252, 249, 0.397);
-      padding: 2%;
+      padding: 50px;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       transform: translateY(100px);
       animation: expand ease-in-out forwards 3s;
+  }
+
+  #product1 {
+    float: left;
+  }
+
+  #product2 {
+    float: right;
+  }
+
+  #product3 {
+    float: left;
+  }
+
+  #product4 {
+    float: right;
+  }
+
+  #bumpdown {
+    margin-top: 100px;
   }
 
   /* CONTACT PAGE */
@@ -322,7 +368,6 @@ animation: expand ease-in-out forwards 2.5s;
     margin-top: 3%;
     margin-bottom: 10%;
     border-radius: 10px;
-    max-height: 50%;
     background-color: rgba(232, 252, 249, 0.397);
     padding: 2%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

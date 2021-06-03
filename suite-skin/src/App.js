@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./pages/Home";
 import NoMatch from "./pages/NoMatch";
-
-import logo from './logo.svg';
 import './App.css';
 import Enter from "./pages/Enter";
 import Services from "./pages/Services";
