@@ -33,7 +33,8 @@ const Contact = () => {
 
                             <Row>
                                 <Col size="md-6">
-                                    <p><img src="../images/linhen.png"></img>Lindsey Henderson has joined the location of Women's Health - Morganton. Lindsey is a graduate of Lurlenn B. Wallace Community College in Opp, Alabama, where she received extensive education about the skin and esthetics. She started her career in a medspa where she was trained and certified in more advanced treatments.</p>
+                                    <h3>About your Esthetician</h3>
+                                    <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/linhen.png?raw=true" class="linhenpic"></img>Lindsey Henderson has joined the location of Women's Health - Morganton. Lindsey is a graduate of Lurlenn B. Wallace Community College in Opp, Alabama, where she received extensive education about the skin and esthetics. She started her career in a medspa where she was trained and certified in more advanced treatments.</p>
                                     <p>In addition to offering facials and waxing, Lindsey is also trained and certified in microdermabrasion, dermaplaning, chemical peels, lash lifting, tinting and has advanced acne education.</p>
                                 </Col>
 
@@ -64,7 +65,7 @@ const Contact = () => {
                     <Col size="md-12">
                         <div class="footer">
                             C Suite Skin by Lindsey
-                    </div>
+                        </div>
                     </Col>
                 </Row>
             </div>

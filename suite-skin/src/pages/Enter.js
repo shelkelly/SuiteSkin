@@ -30,9 +30,11 @@ const Enter = () => {
                 <Col size="md-8">
                     <CustomDiv id="homediv">
 
-                        <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/ssbl.png?raw=true" id="plantpic" class="center"></img></p>
+                        <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/ssbl.png?raw=true" id="plantpic" class="center" alt="Suite Skin by Lindsey Logo"></img></p>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare nibh dui, eget iaculis tortor viverra eget. Maecenas vel augue risus. Etiam porttitor magna risus, a consectetur turpis lacinia quis. Phasellus bibendum, mauris quis faucibus ornare, nulla turpis vulputate elit, lacinia tristique nibh neque a turpis. Sed semper elit ipsum, malesuada ultrices elit pharetra at. Nulla interdum dolor in placerat ornare. Duis quis sem sagittis, tempor turpis vel, hendrerit elit. Donec pulvinar molestie ligula, quis dictum ex mattis ut. Mauris mollis sit amet elit at laoreet. Vestibulum consectetur justo vitae ante gravida congue. Quisque porttitor mauris vel augue varius vestibulum. Duis sollicitudin, odio nec commodo fermentum, eros metus mollis quam, mattis pellentesque arcu lorem quis lacus.</p>
+                        <p>Welcome to Suite Skin!</p>
+                        <p>Here, results are our primary objective. Whether holistic or results driven, the products we offer will fit any of your needs. Products are selected based on healthy and necessary ingredients, but not at the cost of results.</p>
+                        <p>When you come to Suite Skin, you receive more than skin care. You gain knowledge. Knowledge on how the skin works, how diet and hormones affect the skin and so much more. When you come to see Lindsey, you will be set up with an entire system to achieve your desired look.</p>
 
                         <p>
                         <a href="https://www.facebook.com/suiteskinbylindsey"><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/socialmedia/iconfinder_Aquicon-Facebook_249180.png?raw=true" alt="Facebook" id="socmed" /></a>

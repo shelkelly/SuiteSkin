@@ -374,3 +374,10 @@ li {
     transform: translateY(100px);
     animation: expand ease-in-out forwards 3s;
 }
+
+.linhenpic {
+  width: 200px;
+  float: left;
+  border-radius: 5px;
+  margin: 5px;
+}
