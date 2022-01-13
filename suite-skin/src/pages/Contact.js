@@ -40,13 +40,14 @@ const Contact = () => {
 
                                 <Col size="md-6">
                                     <h3>Hours</h3>
-                                    <p><b>Monday:</b> Closed</p>
+                                    <p><b>Monday:</b> 9am - 5pm </p>
                                     <p><b>Tuesday:</b> 9am - 5pm </p>
                                     <p><b>Wednesday:</b> 9am - 5pm </p>
                                     <p><b>Thursday:</b> 9am - 5pm </p>
                                     <p><b>Friday:</b> 9am - 5pm </p>
-                                    <p><b>Saturday:</b> 10am - 3pm </p>
+                                    <p><b>Saturday:</b> Closed </p>
                                     <p><b>Sunday:</b> Closed</p>
+                                    <p><b>Unable to accept walk-ins at this time.</b></p>
                                 </Col>
                             </Row>
 

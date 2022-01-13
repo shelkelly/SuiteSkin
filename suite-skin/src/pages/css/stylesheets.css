@@ -344,6 +344,10 @@ li {
     float: right;
   }
 
+  #product5 {
+    float: left;
+  }
+
   #bumpdown {
     margin-top: 100px;
   }

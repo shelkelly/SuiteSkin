@@ -40,13 +40,17 @@ const Products = () => {
                         <p>Acne is a mysterious skin disorder, but one thing is for sure – it can be controlled with the right combination of products, used in the correct way. Just as in a clogged drain, the pore must be treated with products that unclog it and kill the acne bacteria.</p>
 
                         <p>Face Reality Skincare has a clear-skin system that will have your acne under control in about three to four months, depending on your type of acne. We combine the power of clinical-grade products that are customized for your type of acne, with a series of bi-monthly treatments. We also teach you about other aggravating factors that make you break out – foods, medications, cosmetics, stress, and common ingredients in skin care formulations that might be clogging your pores (even professional and prescription products)</p>
-
+                        
 
                         <p><h3>Grande Cosmetics</h3></p>
                         <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/products/GrandeLogo.png?raw=true" alt="GrandeLash" id="product4"></img></p>
                         <p><b>Serum and Mascara Only</b></p>
                         <p>An award-winning lash enhancing serum infused with a blend of vitamins, peptides, and amino acids to promote the appearance of naturally longer, thicker looking lashes in 4-6 weeks, with full improvement in 3 months. It’s a favorite for helping to enhance short, thinning, brittle lashes. Ophthalmologist tested. Suitable for contacts and lash extensions.</p>
                         
+                        <p><h3>Youngblood</h3></p>
+                        <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/products/Youngblood.png?raw=true" alt="Youngblood" id="product5"></img></p>
+                        <p>Today, Youngblood remains the only ultra-luxury cosmetics brand that focused on using naturally-derived ingredients that allow them to maintain luxury performance. It's why dermatologists and plastic surgeons have endorsed Youngblood as the safer, and only, cosmetics brand suitable for post-op use for more than 20 years.</p>
+
                     </CustomDiv>
 
                 </Col>
