@@ -43,12 +43,12 @@ const Products = () => {
                         
 
                         <p><h3>Grande Cosmetics</h3></p>
-                        <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/products/GrandeLogo.png?raw=true" alt="GrandeLash" id="product4"></img></p>
+                        <p><a href="https://grandecosmetics.com/"><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/products/GrandeLogo.png?raw=true" alt="GrandeLash" id="product4"></img></a></p>
                         <p><b>Serum and Mascara Only</b></p>
                         <p>An award-winning lash enhancing serum infused with a blend of vitamins, peptides, and amino acids to promote the appearance of naturally longer, thicker looking lashes in 4-6 weeks, with full improvement in 3 months. It’s a favorite for helping to enhance short, thinning, brittle lashes. Ophthalmologist tested. Suitable for contacts and lash extensions.</p>
                         
                         <p><h3>Youngblood Mineral Cosmetics</h3></p>
-                        <p><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/products/youngblood.png?raw=true" alt="Youngblood" id="product5"></img></p>
+                        <p><a href="https://www.ybskin.com/"><img src="https://github.com/shelkelly/SuiteSkin/blob/main/suite-skin/src/images/products/youngblood.png?raw=true" alt="Youngblood" id="product5"></img></a></p>
                         <p>Today, Youngblood remains the only ultra-luxury cosmetics brand that focused on using naturally-derived ingredients that allow them to maintain luxury performance. It's why dermatologists and plastic surgeons have endorsed Youngblood as the safer, and only, cosmetics brand suitable for post-op use for more than 20 years.</p>
 
                     </CustomDiv>

@@ -6,19 +6,19 @@ function Nav() {
       <a className="navbar-brand" href="/Enter" id="brand">
         Suite Skin
       </a>
-      <a className="navbar-brand" href="/Services" className="services">
+      <a className="navbar-link" href="/Services" className="services">
         Services
       </a>
-      <a className="navbar-brand" href="/BeforeAndAfter" id="bg03">
+      <a className="navbar-link" href="/BeforeAndAfter" id="bg03">
         Before and After
       </a>
-      <a className="navbar-brand" href="/Products" id="bg04">
+      <a className="navbar-link" href="/Products" id="bg04">
         Product Lines
       </a>
-      <a className="navbar-brand" href="/Contact" id="bg05">
+      <a className="navbar-link" href="/Contact" id="bg05">
         Contact
       </a>
-      <a className="navbar-brand" href="https://suiteskinbylindsey.glossgenius.com/">
+      <a className="navbar-link" href="https://suiteskinbylindsey.glossgenius.com/">
         Online Booking
       </a>
     </nav>
